@@ -28,17 +28,23 @@ FULLSTACK_LMS/
 🧪 Ручное тестирование API
 
 📥 Создать курс 
-```curl -X POST http://localhost:8081/api/courses \
+
+```
+curl -X POST http://localhost:8081/api/courses \
   -H "Content-Type: application/json" \
-  -d '{"title":"Go для продакшена","description":"Курс по надёжным сервисам","author":"Артём"}'```
+  -d '{"title":"Go для продакшена","description":"Курс по надёжным сервисам","author":"Артём"}'
+```
 
 📤 Получить все курсы 
 
 ```curl http://localhost:8081/api/courses```
 
 🗑 Удалить курс 
-```curl -X DELETE http://localhost:8081/api/courses/ВАШ_UUID```
+
+```
+curl -X DELETE http://localhost:8081/api/courses/ВАШ_UUID
 # Пример UUID: f47ac10b-58cc-4372-a567-0e02b2c3d479
+```
 
 🧑‍💻 Локальная разработка 
 
