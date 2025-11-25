@@ -1,0 +1,122 @@
+[INFO]2025/11/25 14:45:21 logger.go:41: Logger start
+[INFO]2025/11/25 14:45:21 logger.go:41: 🚀 Server starting addr :8080
+[Error]2025/11/25 14:45:21 logger.go:55: Server failed error listen tcp :8080: bind: address already in use
+[INFO]2025/11/25 14:49:10 logger.go:41: Logger start
+[INFO]2025/11/25 14:49:10 logger.go:41: 🚀 Server starting addr :8081
+[DEBUG]2025/11/25 14:50:07 logger.go:48: Fetching all courses
+[INFO]2025/11/25 14:50:07 logger.go:41: Courses fetched successfully count 0
+[INFO]2025/11/25 15:07:47 logger.go:41: ⏳ Shutting down server...
+[INFO]2025/11/25 15:07:47 logger.go:41: ✅ Server stopped
+[INFO]2025/11/25 16:13:27 logger.go:41: Logger start
+[INFO]2025/11/25 16:13:27 logger.go:41: 🚀 Server starting addr :8081
+[DEBUG]2025/11/25 16:13:37 logger.go:48: Fetching all courses
+[INFO]2025/11/25 16:13:37 logger.go:41: Courses fetched successfully count 0
+[Error]2025/11/25 16:15:09 logger.go:55: failed to create course error ERROR: null value in column "id" of relation "courses" violates not-null constraint (SQLSTATE 23502)
+[DEBUG]2025/11/25 16:28:02 logger.go:48: Fetching all courses
+[INFO]2025/11/25 16:28:02 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 16:28:06 logger.go:48: Fetching all courses
+[INFO]2025/11/25 16:28:06 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 16:28:26 logger.go:48: Fetching all courses
+[INFO]2025/11/25 16:28:26 logger.go:41: Courses fetched successfully count 0
+[Error]2025/11/25 16:28:39 logger.go:55: failed to create course error ERROR: null value in column "id" of relation "courses" violates not-null constraint (SQLSTATE 23502)
+[INFO]2025/11/25 16:36:25 logger.go:41: ⏳ Shutting down server...
+[INFO]2025/11/25 16:36:25 logger.go:41: ✅ Server stopped
+[INFO]2025/11/25 16:36:36 logger.go:41: Logger start
+[INFO]2025/11/25 16:36:36 logger.go:41: 🚀 Server starting addr :8081
+[DEBUG]2025/11/25 16:36:43 logger.go:48: Fetching all courses
+[INFO]2025/11/25 16:36:43 logger.go:41: Courses fetched successfully count 0
+[INFO]2025/11/25 16:36:59 logger.go:41: course created id 37033fcd-17c8-42cd-a2e8-8b72baa48511
+[DEBUG]2025/11/25 16:37:32 logger.go:48: Starting to process delete course request course_id 37033fcd-17c8-42cd-a2e8-8b72baa48511
+[INFO]2025/11/25 16:37:32 logger.go:41: Deleting course id 37033fcd-17c8-42cd-a2e8-8b72baa48511
+[INFO]2025/11/25 16:37:32 logger.go:41: Course deleted successfully id 37033fcd-17c8-42cd-a2e8-8b72baa48511
+[INFO]2025/11/25 16:37:56 logger.go:41: course created id 8deb2625-00aa-43c1-8f2d-14f72bbc6188
+[DEBUG]2025/11/25 16:38:52 logger.go:48: Fetching all courses
+[INFO]2025/11/25 16:38:52 logger.go:41: Courses fetched successfully count 1
+[INFO]2025/11/25 16:46:22 logger.go:41: ⏳ Shutting down server...
+[INFO]2025/11/25 16:46:22 logger.go:41: ✅ Server stopped
+[INFO]2025/11/25 17:03:49 logger.go:41: Logger start
+[INFO]2025/11/25 17:03:49 logger.go:41: 🚀 Server starting addr :8081
+[DEBUG]2025/11/25 17:18:29 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:18:29 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:21:49 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:21:49 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:22:19 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:22:19 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:22:20 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:22:20 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:22:21 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:22:21 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:22:22 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:22:22 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:25:25 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:25:25 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:26:30 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:26:30 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:27:31 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:27:31 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:29:56 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:29:56 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:34:53 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:34:53 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:34:59 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:34:59 logger.go:41: Courses fetched successfully count 1
+[DEBUG]2025/11/25 17:38:39 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:38:39 logger.go:41: Courses fetched successfully count 1
+[INFO]2025/11/25 17:40:14 logger.go:41: course created id b47be811-9c87-4329-8b0f-4cf1987e9907
+[DEBUG]2025/11/25 17:40:26 logger.go:48: Starting to process delete course request course_id 8deb2625-00aa-43c1-8f2d-14f72bbc6188
+[INFO]2025/11/25 17:40:26 logger.go:41: Deleting course id 8deb2625-00aa-43c1-8f2d-14f72bbc6188
+[INFO]2025/11/25 17:40:26 logger.go:41: Course deleted successfully id 8deb2625-00aa-43c1-8f2d-14f72bbc6188
+[DEBUG]2025/11/25 17:40:30 logger.go:48: Starting to process delete course request course_id b47be811-9c87-4329-8b0f-4cf1987e9907
+[INFO]2025/11/25 17:40:30 logger.go:41: Deleting course id b47be811-9c87-4329-8b0f-4cf1987e9907
+[INFO]2025/11/25 17:40:30 logger.go:41: Course deleted successfully id b47be811-9c87-4329-8b0f-4cf1987e9907
+[INFO]2025/11/25 17:40:46 logger.go:41: course created id 35465aba-f810-4a68-842f-1fdbc68a7073
+[DEBUG]2025/11/25 17:41:00 logger.go:48: Starting to process delete course request course_id 35465aba-f810-4a68-842f-1fdbc68a7073
+[INFO]2025/11/25 17:41:00 logger.go:41: Deleting course id 35465aba-f810-4a68-842f-1fdbc68a7073
+[INFO]2025/11/25 17:41:00 logger.go:41: Course deleted successfully id 35465aba-f810-4a68-842f-1fdbc68a7073
+[DEBUG]2025/11/25 17:43:48 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:43:48 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:45:25 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:45:25 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:51:02 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:51:02 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:51:38 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:51:38 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:53:59 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:53:59 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:54:11 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:54:11 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:54:19 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:54:19 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:55:13 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:55:13 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:56:02 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:56:02 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:56:53 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:56:53 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:57:39 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:57:39 logger.go:41: Courses fetched successfully count 0
+[DEBUG]2025/11/25 17:57:39 logger.go:48: Fetching all courses
+[INFO]2025/11/25 17:57:39 logger.go:41: Courses fetched successfully count 0
+[INFO]2025/11/25 17:57:52 logger.go:41: course created id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[DEBUG]2025/11/25 17:57:59 logger.go:48: Starting to process update course request course_id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[DEBUG]2025/11/25 17:57:59 logger.go:48: Request body decoded for update title питон author арте course_id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[INFO]2025/11/25 17:57:59 logger.go:41: Updating course id 7cf578f1-3310-44f2-bb22-92de5fd6e947 title питон
+[INFO]2025/11/25 17:57:59 logger.go:41: Course updated successfully id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[DEBUG]2025/11/25 17:58:05 logger.go:48: Starting to process update course request course_id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[DEBUG]2025/11/25 17:58:05 logger.go:48: Request body decoded for update title питон author артем course_id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[INFO]2025/11/25 17:58:05 logger.go:41: Updating course id 7cf578f1-3310-44f2-bb22-92de5fd6e947 title питон
+[INFO]2025/11/25 17:58:05 logger.go:41: Course updated successfully id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[DEBUG]2025/11/25 20:15:30 logger.go:48: Fetching all courses
+[INFO]2025/11/25 20:15:30 logger.go:41: Courses fetched successfully count 1
+[INFO]2025/11/25 20:19:02 logger.go:41: course created id a0d3665d-d035-4c90-9210-dc27cd5c4428
+[DEBUG]2025/11/25 20:19:11 logger.go:48: Fetching all courses
+[INFO]2025/11/25 20:19:11 logger.go:41: Courses fetched successfully count 2
+[DEBUG]2025/11/25 20:19:12 logger.go:48: Fetching all courses
+[INFO]2025/11/25 20:19:12 logger.go:41: Courses fetched successfully count 2
+[DEBUG]2025/11/25 20:25:41 logger.go:48: Starting to process delete course request course_id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[INFO]2025/11/25 20:25:41 logger.go:41: Deleting course id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[INFO]2025/11/25 20:25:41 logger.go:41: Course deleted successfully id 7cf578f1-3310-44f2-bb22-92de5fd6e947
+[DEBUG]2025/11/25 21:29:42 logger.go:48: Fetching all courses
+[INFO]2025/11/25 21:29:42 logger.go:41: Courses fetched successfully count 1
+[INFO]2025/11/25 21:37:31 logger.go:41: ⏳ Shutting down server...
+[INFO]2025/11/25 21:37:31 logger.go:41: ✅ Server stopped

@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: lms
+      POSTGRES_USER: lms
+      POSTGRES_PASSWORD: lms123
+    volumes:
+      - pg_course:/var/lib/postgresql/data
+    networks:
+      course_net:
+        aliases: [db]
+   
+  backend:
+    build: ./backend
+    ports:
+      - "8081:8081"
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: lms
+      DB_PASSWORD: lms123
+      DB_NAME: lms
+    networks:
+      course_net:
+        aliases: [backend]
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      course_net:
+        aliases: [frontend]
+    depends_on:
+      - backend
+
+volumes:
+  pg_course:
+networks:
+    course_net:
+        name:course_net 
