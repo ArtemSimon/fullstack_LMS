@@ -2,11 +2,8 @@ version: '3.8'
 
 services:
   db:
-    image: postgres:16-alpine
-    environment:
-      POSTGRES_DB: lms
-      POSTGRES_USER: lms
-      POSTGRES_PASSWORD: lms123
+    image: postgres:latest
+    env_file: ".env"
     volumes:
       - pg_course:/var/lib/postgresql/data
     networks:
@@ -15,14 +12,9 @@ services:
    
   backend:
     build: ./backend
+    env_file: ".env"
     ports:
       - "8081:8081"
-    environment:
-      DB_HOST: db
-      DB_PORT: 5432
-      DB_USER: lms
-      DB_PASSWORD: lms123
-      DB_NAME: lms
     networks:
       course_net:
         aliases: [backend]
@@ -41,6 +33,7 @@ services:
 
 volumes:
   pg_course:
+    driver: local
 networks:
     course_net:
         name:course_net 
