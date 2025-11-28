@@ -1,25 +1,25 @@
 version: '3.8'
 
 services:
-  db:
+  course_db:
     image: postgres:latest
-    env_file: ".env"
+    env_file: "postgres.env"
     volumes:
       - pg_course:/var/lib/postgresql/data
     networks:
       course_net:
-        aliases: [db]
+        aliases: [course_db]
    
   backend:
     build: ./backend
-    env_file: ".env"
+    env_file: "app.env"
     ports:
       - "8081:8081"
     networks:
       course_net:
         aliases: [backend]
     depends_on:
-      - db
+      - course_db
 
   frontend:
     build: ./frontend
