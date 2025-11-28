@@ -39,19 +39,21 @@ POSTGRES_PASSWORD=ваш_пароль
 POSTGRES_DB=ваша_база_данных
 ```
 
-app.env - для приложения FastAPI (укажите те же данные, что и для PostgreSQL):
+app.env - для приложения (укажите те же данные, что и для PostgreSQL):
 
 ```
 DB_USER=ваш_пользователь
 DB_PASS=ваш_пароль
 DB_NAME=ваша_база_данных
 DB_HOST=ваш хост
-DB_PORT=5432
+DB_PORT=ваш порт(обычно 5432)
 ```
 
 # Запуск через Docker
 
-``` docker compose up --build ```
+``` 
+docker compose up --build 
+```
 
 # Просмотр логов отдельных сервисов
 
@@ -63,7 +65,9 @@ docker-compose logs frontend
 # Остановка всех сервисов
 
 Выполните: 
-```docker-compose down``` 
+```
+docker-compose down
+``` 
 
 🧪 Ручное тестирование API
 
@@ -77,7 +81,9 @@ curl -X POST http://localhost:8081/api/courses \
 
 📤 Получить все курсы 
 
-```curl http://localhost:8081/api/courses```
+```
+curl http://localhost:8081/api/courses
+```
 
 🗑 Удалить курс 
 
@@ -111,4 +117,6 @@ npm start
 
 Файл миграции: backend/migrations/000001_create_courses_table.sql 
 
-```goose -dir ./migrations postgres "postgres://DB_USER:DB_PASSWORD@localhost:port/DB_NAME?sslmode=disable" up```
+```
+goose -dir ./migrations postgres "postgres://DB_USER:DB_PASSWORD@localhost:port/DB_NAME?sslmode=disable" up
+```
